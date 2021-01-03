@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome is launched]]>
+    </line>
+    <line>
+      <![CDATA[https://www.ndtv.com/url is navigated ]]>
+    </line>
+    <line>
+      <![CDATA[Sucessufully MouseOver and Click]]>
+    </line>
+    <line>
+      <![CDATA[Sucessufully  Click]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Sucessufully  Click]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[All session are closed ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40803" started-at="2021-01-03T11:41:28 IST" finished-at="2021-01-03T11:42:09 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40803" started-at="2021-01-03T11:41:28 IST" finished-at="2021-01-03T11:42:09 IST">
+      <class name="Scripts.RestWeatherApiTest">
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:Scripts.RestWeatherApiTest@6cc7b4de]" name="getResponseBody" duration-ms="4627" started-at="2021-01-03T11:42:04 IST" finished-at="2021-01-03T11:42:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Scripts.RestWeatherApiTest@6cc7b4de]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-03T11:42:08 IST" finished-at="2021-01-03T11:42:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getResponseBody status=SUCCESS method=RestWeatherApiTest.getResponseBody()[pri:0, instance:Scripts.RestWeatherApiTest@6cc7b4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Scripts.RestWeatherApiTest -->
+      <class name="Scripts.WeatherDataTest">
+        <test-method status="PASS" signature="set()[pri:0, instance:Scripts.WeatherDataTest@517cd4b]" name="set" is-config="true" duration-ms="19" started-at="2021-01-03T11:41:28 IST" finished-at="2021-01-03T11:41:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String)[pri:0, instance:Scripts.WeatherDataTest@517cd4b]" name="precondition" is-config="true" duration-ms="29088" started-at="2021-01-03T11:41:28 IST" finished-at="2021-01-03T11:41:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ndtv.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome is launched]]>
+            </line>
+            <line>
+              <![CDATA[https://www.ndtv.com/url is navigated ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="getWeatherData()[pri:0, instance:Scripts.WeatherDataTest@517cd4b]" name="getWeatherData" duration-ms="5282" started-at="2021-01-03T11:41:57 IST" finished-at="2021-01-03T11:42:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucessufully MouseOver and Click]]>
+            </line>
+            <line>
+              <![CDATA[Sucessufully  Click]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Sucessufully  Click]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getWeatherData -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:Scripts.WeatherDataTest@517cd4b]" name="postCondition" is-config="true" duration-ms="973" started-at="2021-01-03T11:42:03 IST" finished-at="2021-01-03T11:42:04 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+            <line>
+              <![CDATA[All session are closed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Scripts.WeatherDataTest@517cd4b]" name="getResult" is-config="true" duration-ms="2" started-at="2021-01-03T11:42:04 IST" finished-at="2021-01-03T11:42:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getWeatherData status=SUCCESS method=WeatherDataTest.getWeatherData()[pri:0, instance:Scripts.WeatherDataTest@517cd4b] output=Sucessufully MouseOver and Click]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Scripts.WeatherDataTest@517cd4b]" name="tearDown" is-config="true" duration-ms="69" started-at="2021-01-03T11:42:09 IST" finished-at="2021-01-03T11:42:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Scripts.WeatherDataTest -->
+      <class name="Scripts.Comparator">
+        <test-method status="PASS" signature="compare()[pri:0, instance:Scripts.Comparator@32cf48b7]" name="compare" duration-ms="642" started-at="2021-01-03T11:42:08 IST" finished-at="2021-01-03T11:42:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compare -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Scripts.Comparator@32cf48b7]" name="getResult" is-config="true" duration-ms="0" started-at="2021-01-03T11:42:09 IST" finished-at="2021-01-03T11:42:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compare status=SUCCESS method=Comparator.compare()[pri:0, instance:Scripts.Comparator@32cf48b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Scripts.Comparator -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
